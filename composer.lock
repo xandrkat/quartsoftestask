@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "904bb56f60d7652485544c7263084197",
+    "content-hash": "8c2ba0ea6e093674b37b4304644d14eb",
     "packages": [
         {
             "name": "bower-asset/inputmask",
@@ -1469,12 +1469,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "23145e0c983515f1433412f1544a14a0fc0b37f9"
+                "reference": "ece4bc812643980f9644a5eae20e47539786296e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/23145e0c983515f1433412f1544a14a0fc0b37f9",
-                "reference": "23145e0c983515f1433412f1544a14a0fc0b37f9",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/ece4bc812643980f9644a5eae20e47539786296e",
+                "reference": "ece4bc812643980f9644a5eae20e47539786296e",
                 "shasum": ""
             },
             "require": {
@@ -1584,7 +1584,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-11-10T10:26:55+00:00"
+            "time": "2021-11-11T21:25:08+00:00"
         },
         {
             "name": "yiisoft/yii2-bootstrap4",
@@ -2495,7 +2495,8 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=8.0.0"
+        "php": ">=8.0.0",
+        "ext-simplexml": "*"
     },
     "platform-dev": [],
     "plugin-api-version": "2.1.0"
