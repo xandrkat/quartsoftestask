@@ -30,7 +30,7 @@ $config = [
             'class'            => 'yii\swiftmailer\Mailer',
             'useFileTransport' => true,
         ],
-        'log'          => [
+        'log'        => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
             'targets'    => [
                 [
@@ -42,17 +42,17 @@ $config = [
                 ],
             ],
         ],
-        'db'           => $db,
-        'urlManager'   => [
+        'db'         => $db,
+        'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName'  => false,
             'rules'           => [
+                'cadastr'       => 'site/cadastr',
+                'cadastr/index' => 'site/cadastr'
             ],
         ],
     ],
-    'modules'    => [
-
-    ],
+    'modules'    => [],
     'params'     => $params,
 ];
 

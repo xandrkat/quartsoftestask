@@ -10,9 +10,9 @@
             "name": "bower-asset/inputmask",
             "version": "3.3.11",
             "source": {
-                "type": "git",
-                "url": "git@github.com:RobinHerbots/Inputmask.git",
-                "reference": "5e670ad62f50c738388d4dcec78d2888505ad77b"
+              "type": "git",
+              "url": "https://github.com/RobinHerbots/Inputmask.git",
+              "reference": "5e670ad62f50c738388d4dcec78d2888505ad77b"
             },
             "dist": {
                 "type": "zip",
@@ -657,13 +657,13 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPOffice/PhpSpreadsheet.git",
-                "reference": "5a704158e1ed14c4fb271300b3ff65c40bb8225f"
+              "reference": "52585a9d7cf0f348be08e38fd035a909851967f6"
             },
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/PHPOffice/PhpSpreadsheet/zipball/5a704158e1ed14c4fb271300b3ff65c40bb8225f",
-                "reference": "5a704158e1ed14c4fb271300b3ff65c40bb8225f",
-                "shasum": ""
+              "type": "zip",
+              "url": "https://api.github.com/repos/PHPOffice/PhpSpreadsheet/zipball/52585a9d7cf0f348be08e38fd035a909851967f6",
+              "reference": "52585a9d7cf0f348be08e38fd035a909851967f6",
+              "shasum": ""
             },
             "require": {
                 "ext-ctype": "*",
@@ -754,7 +754,7 @@
                 "issues": "https://github.com/PHPOffice/PhpSpreadsheet/issues",
                 "source": "https://github.com/PHPOffice/PhpSpreadsheet/tree/master"
             },
-            "time": "2021-11-10T01:26:09+00:00"
+          "time": "2021-11-14T18:27:59+00:00"
         },
         {
             "name": "psr/http-client",
